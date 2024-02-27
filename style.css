@@ -1,0 +1,164 @@
+/* Exo 1 */
+
+#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
+    border: 4px solid black;
+    height: 90vh;
+    margin: 20px;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    column-gap: 10px;
+}
+
+.boiteblue, .boiteorange {
+    height: 30vh;
+    width: 25%;
+}
+
+.boiteblue p, .boiteorange p {
+    margin: 10px 10px;
+}
+
+.boiteblue {
+    background-color: rgb(0, 217, 255);
+}
+
+.boiteorange {
+    background-color: orangered;
+}
+
+/* Exo 2 */
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+
+/* Exo 3 */
+
+#section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section3 .boiteblue, .section3 #boiteorange {
+    height: 30vh;
+    width: 25%;
+}
+
+/* Exo 4 */
+
+#section4 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#conteneur4 {
+    width: 25%;
+    height: 50%;
+
+}
+
+#conteneur4 .boiteblue p, #conteneur4 .boiteorange p {
+    margin: 0;
+    padding: 10px;
+}
+
+#section4 .boiteblue, #section4 .boiteorange {
+    margin: 0;
+    height: 33.33333333%;
+    width: 100%;
+}
+
+/* Exo 5 */
+
+#section5 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+/* Exo 6 */
+
+#section6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec6box1 {
+    align-self: self-end;
+    
+}
+
+#section6 .boiteorange{
+    align-self: center;
+}
+
+#sec6box1, #sec6box2, #sec6box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+/* Exo 7 */
+
+#section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+#boiteblue7 {
+    background-color: rgb(0, 217, 255);
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+#boiteorange7 {
+    background-color: orangered;
+    width: 80%;
+    display: flex;
+    height: 40%;
+    padding: 10px;
+}
+
+#boitegrise7 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30%;
+}
+
+#boitegrise7  {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#boiteorange7 h3, #boiteorange7 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sousboiteorange7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
